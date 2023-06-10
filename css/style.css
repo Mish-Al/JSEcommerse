@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(56, 55, 55);
+}
+.collapse .nav-link{
+    color: rgb(173, 170, 170);
+}
+.collapse .nav-link:hover{
+    color: rgb(0, 0, 0);
+}
+#nav-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+#logo{
+    height: 150px;
+}
