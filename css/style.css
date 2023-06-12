@@ -1,5 +1,13 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
 .navbar{
     background-color: rgb(56, 55, 55);
+}
+#logo{
+    width: 10rem;
 }
 .collapse .nav-link{
     color: rgb(173, 170, 170);
@@ -12,6 +20,19 @@
     justify-content: flex-end;
     align-items: end;
 }
-#logo{
-    height: 150px;
+.landing{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://i.postimg.cc/4dcgSjq1/The-Best-Phones-to-buy-in-2023-our-top-10-list.jpg'); 
+    background-size: cover;
 }
+
+
+@media screen and (max-width: 650px) {
+    .landing{
+        height: 100vh;
+        width: 100%;
+        background-color: #484646;
+    }
+}
+
