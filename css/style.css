@@ -2,7 +2,6 @@
     box-sizing: border-box;
     font-family: 'Poppins' , sans-serif;
 }
-
 .navbar{
     background-color: rgb(56, 55, 55);
 }
@@ -26,8 +25,55 @@
     background-image: url('https://i.postimg.cc/4dcgSjq1/The-Best-Phones-to-buy-in-2023-our-top-10-list.jpg'); 
     background-size: cover;
 }
-
-
+.admin{
+    background-color: rgb(203, 191, 191);
+}
+#modal-btn{
+    float: right;
+    border: 5px double #3b3a3a;
+    background-color: #484646;
+    color: #a3a3a3;
+}
+#modal-btn:hover{
+    background-color: #a3a3a3;
+    color: #484646;
+}
+#save-btn{
+    background-color: #a3a3a3;
+    border: #484646;
+    color: #484646;
+}
+#save-btn:hover{
+    background-color: #3b3a3a;
+    color: #a3a3a3;
+}
+#dismiss-btn{
+    background-color: #484646;
+    border: #a3a3a3;
+    color: #a3a3a3;
+}
+#dismiss-btn:hover{
+    background-color: #a3a3a3;
+    color: #484646;
+}
+.admin h2{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.sbtn{
+    border: none;
+    border-radius: 8px;
+    border: 5px double #3b3a3a;
+    background-color: #484646;
+    color: #a3a3a3;
+    width: 6rem;
+    height: 3rem;
+}
+.sbtn:hover{
+    background-color: #a3a3a3;
+    color: #484646;
+}
 @media screen and (max-width: 650px) {
     .landing{
         height: 100vh;
