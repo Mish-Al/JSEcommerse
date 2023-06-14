@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.navbar{
+    background-color: rgb(56, 55, 55);
+}
+#logo{
+    width: 10rem;
+}
+.collapse .nav-link{
+    color: rgb(173, 170, 170);
+}
+.collapse .nav-link:hover{
+    color: rgb(0, 0, 0);
+}
+#nav-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color:rgb(173, 170, 170);
+}
+.form_container{
+    margin-top: 20px;
+    width: 100vw;
+    border-radius: 10px;
+    height: 100vh;
+    padding: 10px;
+    background-color: rgb(185, 181, 181);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+form button{
+    border: 2px double #3b3a3a;
+    border-radius: 10px;
+    background-color: #484646;
+    color: #a3a3a3;
+    font-size: small;
+}
+form button:hover{
+    background-color: #a3a3a3;
+    color: #484646;
+}
+.add_div{
+    width: 100%;
+    padding: 10px 0 0 90px;
+}
+.add_div button{
+    padding: 8px;
+    border: 2px double #3b3a3a;
+    border-radius: 10px;
+    background-color: #484646;
+    color: #a3a3a3;
+    font-size: small;
+}
+.add_div button:hover{
+    background-color: #a3a3a3;
+    color: #484646;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+/* .update_item, .create_item{
+    display: none;
+} */
+
+
+.admin{
+    background-color: rgb(173, 170, 170);
+}
+.admin h2{
+    text-align: center;
+    text-decoration: underline;
+}
