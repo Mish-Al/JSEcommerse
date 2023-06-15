@@ -24,14 +24,14 @@
 .container{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: max-content;
     background-color:rgb(173, 170, 170);
 }
 .form_container{
     margin-top: 20px;
     width: 100vw;
     border-radius: 10px;
-    height: 100vh;
+    height: fit-content;
     padding: 10px;
     background-color: rgb(185, 181, 181);
     display: flex;
@@ -75,6 +75,11 @@ table{
     margin-top: 20px;
     text-align: center;
 }
+td img{
+    height: 6rem;
+    width: 7rem;
+}
+
 /* .update_item, .create_item{
     display: none;
 } */
@@ -86,4 +91,12 @@ table{
 .admin h2{
     text-align: center;
     text-decoration: underline;
+}
+.feet{
+    background-color: #161515;
+    height: 5rem;
+    padding: 0;
+    text-align: center;
+    color: rgba(216, 217, 217, 0.737);
+    padding-top: 1rem;
 }
