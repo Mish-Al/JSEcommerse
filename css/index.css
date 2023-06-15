@@ -1,54 +1,68 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.navbar{
-    background-color: rgb(56, 55, 55);
-    height: 100%;
+.navbar {
+  background-color: rgb(56, 55, 55);
+  height: 100%;
 }
-#logo{
-    width: 10rem;
+#logo {
+  width: 10rem;
 }
-.collapse .nav-link{
-    color: rgb(173, 170, 170);
+.collapse .nav-link {
+  color: rgb(173, 170, 170);
 }
-.collapse .nav-link:hover{
-    color: rgb(0, 0, 0);
+.collapse .nav-link:hover {
+  color: rgb(0, 0, 0);
 }
-#nav-links{
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
+#nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
 }
-.landing{
-    height: 100vh;
-    width: 100%;
-    background-image: url('https://i.postimg.cc/4dcgSjq1/The-Best-Phones-to-buy-in-2023-our-top-10-list.jpg'); 
-    background-size: cover;
+.landing {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://i.postimg.cc/4dcgSjq1/The-Best-Phones-to-buy-in-2023-our-top-10-list.jpg");
+  background-size: cover;
 }
-.landing_heading{
-    text-align: center;
-    color: rgba(180, 185, 189, 0.737);
-    font-size: 3rem;
-    font-style: italic;
-    text-decoration: underline;
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
 }
-.feet{
-    background-color: #161515;
-    height: 5rem;
-    padding: 0;
-    text-align: center;
-    color: rgba(216, 217, 217, 0.737);
-    padding-top: 1rem;
+.landing_heading {
+  text-align: center;
+  color: rgba(180, 185, 189, 0.737);
+  font-size: 3rem;
+  font-style: italic;
+  text-decoration: underline;
 }
-
-
+.landing .card {
+  border-radius: 20px;
+  background-color: #484646;
+  color: rgba(180, 185, 189, 0.737);
+}
+.landing .btn {
+  color: rgba(216, 217, 217, 0.737);
+  border: 2px solid #161515;
+  margin-top: 4px;
+  border-radius: 10px;
+}
+.feet {
+  background-color: #161515;
+  height: 5rem;
+  padding: 0;
+  text-align: center;
+  color: rgba(216, 217, 217, 0.737);
+  padding-top: 1rem;
+}
 
 @media screen and (max-width: 650px) {
-    .landing{
-        height: 100vh;
-        width: 100%;
-        background-color: #484646;
-    }
+  .landing {
+    height: 100vh;
+    width: 100%;
+    background-color: #484646;
+  }
 }
-
