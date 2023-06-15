@@ -26,6 +26,13 @@
     background-image: url('https://i.postimg.cc/4dcgSjq1/The-Best-Phones-to-buy-in-2023-our-top-10-list.jpg'); 
     background-size: cover;
 }
+.landing_heading{
+    text-align: center;
+    color: rgba(180, 185, 189, 0.737);
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: underline;
+}
 .feet{
     background-color: #161515;
     height: 5rem;
