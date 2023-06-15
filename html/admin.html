@@ -1,85 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width= device-width
-    , initial-scale=1.0">
-    <link rel="stylesheet" href="../css/admin.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/83bb4936ba.js" crossorigin="anonymous"></script>    
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width= device-width
+    , initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="../css/admin.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/83bb4936ba.js"
+      crossorigin="anonymous"
+    ></script>
     <title><span class="dashicons dashicons-admin-home"></span></title>
-</head>
-<body onload="readAll()">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html"><img src="https://i.postimg.cc/V5QN8Rkb/Screenshot-2023-06-10-224958-removebg-preview.png" alt="Logo" id="logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto" id="nav-links">
-          <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-          <a class="nav-link" href="../html/products.html">Products</a>
-          <a class="nav-link" href="../html/admin.html">Admin</a>
-          <a class="nav-link" href="../html/checkout.html">Checkout</a>
-          <a class="nav-link" href="../html/about.html">About</a>
+  </head>
+  <body onload="readAll()">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"
+          ><img
+            src="https://i.postimg.cc/V5QN8Rkb/Screenshot-2023-06-10-224958-removebg-preview.png"
+            alt="Logo"
+            id="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto" id="nav-links">
+            <a class="nav-link" aria-current="page" href="../index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="../html/products.html">Products</a>
+            <a class="nav-link active" href="../html/admin.html">Admin</a>
+            <a class="nav-link" href="../html/checkout.html">Checkout</a>
+            <a class="nav-link" href="../html/about.html">About</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <main class="admin">
+    </nav>
+    <main class="admin">
       <h2>Admin Interface</h2>
-  
-  <div class="container">
-    <div class="form_container">
-      <form class="create_item">
-        <input type="text" class="brand" placeholder="enter brand and model">
-        <input type="text" class="specs" placeholder="enter device specifications">
-        <input type="text" class="imageUrl" placeholder="enter image URL">
-        <input type="text" class="price" placeholder="enter price">
-        <button type="button" onclick="create()">Create</button>
-      </form>
-      <form class="update_item">
-        <input type="text" class="ubrand" placeholder="update brand and model">
-        <input type="text" class="uspecs" placeholder="update specs">
-        <input type="text" class="uimageUrl" placeholder="update image">
-        <input type="text" class="uprice" placeholder="update price">
-        <button type="button">Update</button>
-      </form>
-      <div class="add_div">
-        <button onclick="add()">Add</button>
-      </div>
-      <table>
-        <thead>
-          <th>Brand & Model</th>
-          <th>Specifications</th>
-          <th>Image</th>
-          <th>Price</th>
-        </thead>
-        <tbody class="data_table">
 
-        </tbody>
-      </table>
-    </div>
-  </div>
-</main>
-      
-  
-  
-  
-      
-      
-      
-      
-<footer class="feet">
-  <p class="copy">© Copyright 2021</p>
-  <p class="copy">
-    Built by Mish-Al Taliep &trade;
-  </p>
-</footer>
-      
-      
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-      <script src="../script/index.js"></script>
-    </body>
+      <div class="container">
+        <div class="form_container">
+          <form class="create_item">
+            <input
+              type="text"
+              class="brand"
+              placeholder="enter brand and model"
+            />
+            <input
+              type="text"
+              class="specs"
+              placeholder="enter device specifications"
+            />
+            <input type="text" class="imageUrl" placeholder="enter image URL" />
+            <input type="text" class="price" placeholder="enter price" />
+            <button type="button" onclick="create()">Create</button>
+          </form>
+          <form class="update_item">
+            <input
+              type="text"
+              class="ubrand"
+              placeholder="update brand and model"
+            />
+            <input type="text" class="uspecs" placeholder="update specs" />
+            <input type="text" class="uimageUrl" placeholder="update image" />
+            <input type="text" class="uprice" placeholder="update price" />
+            <button type="button">Update</button>
+          </form>
+          <div class="add_div">
+            <button onclick="add()">Add</button>
+          </div>
+          <table>
+            <thead>
+              <th>Brand & Model</th>
+              <th>Specifications</th>
+              <th>Image</th>
+              <th>Price</th>
+            </thead>
+            <tbody class="data_table"></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <footer class="feet">
+      <p class="copy">© Copyright 2021</p>
+      <p class="copy">Built by Mish-Al Taliep &trade;</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../script/index.js"></script>
+  </body>
 </html>
